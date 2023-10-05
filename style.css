@@ -25,8 +25,7 @@ main h3 {
 
 main p {
   font-family: "Roboto", sans-serif;
-  margin-top: 0;
-}
+  margin-top: 0; }
 
 .bg-primary {
   background-color: #775f47;
@@ -39,3 +38,22 @@ main p {
   flex-direction: column;
   margin-bottom: 100px;
 }
+
+.item{
+  flex: 1;
+  margin: 10px;
+}
+ .item-double {
+  flex: 2;
+  margin: 10px
+  ;
+ }
+
+ @media all and (min-width: 800px){
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+ }
